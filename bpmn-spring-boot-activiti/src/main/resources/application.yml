@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://120.78.162.148:3306/vprisk-test?useunicode=true&characterEncoding=utf-8&useTimezone=true&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&nullCatalogMeansCurrent=true
+    url: jdbc:mysql://ip:3306/vprisk-test?useunicode=true&characterEncoding=utf-8&useTimezone=true&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&nullCatalogMeansCurrent=true
     username: root
-    password: AIRbriagE1001
+    password: password
   activiti:
     check-process-definitions: false
     database-schema-update: true
